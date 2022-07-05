@@ -1,5 +1,5 @@
-# AlcherWebOps-Task2
+# AlcherWebOps-Tasks
 
-### Task 2 of alcher web ops 
+### Tasks of alcher web ops 
 
 #### Ipsita Jain (R.No. 210102039)
