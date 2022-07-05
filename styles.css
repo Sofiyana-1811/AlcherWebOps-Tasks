@@ -1,0 +1,125 @@
+* {
+    font-family: Calibri;
+    margin:0%;
+    padding: 0%;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.topbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+form {
+    height: 36px;
+    width: 290px;
+}
+
+form input{
+    height: 36px;
+    width: 250px;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.para {
+    text-align: center;
+}
+
+.para h1 {
+    font-size: 40px;
+}
+.para h1 span {
+    color: rgb(38, 110, 254);
+}
+
+.para p {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: grey;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 42%;
+    padding-right: 42%;
+}
+
+#b1{
+    background-color: rgb(38, 110, 254);
+    color: white;
+    border: 1px solid rgb(38, 110, 254);
+    border-radius: 5px;
+    padding: 11px 20px 11px 20px;
+    font-size: 15px;
+}
+
+#b2{
+    color: rgb(38, 110, 254);
+    background-color: white;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 5px;
+    padding: 11px 20px 11px 20px;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px rgb(225, 225, 225);
+}
+
+.stuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding: 0px 30px 0px 30px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+}
+
+table {
+    border-spacing: 0px;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+tr, td,th{
+    border: 1px solid rgb(225, 225, 225);
+    padding: 10px;
+    border-collapse: collapse;
+} 
+
+th {
+    text-align: left;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: 18px;
+}
